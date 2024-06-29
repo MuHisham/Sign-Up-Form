@@ -1,0 +1,20 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
+
+:root {
+    --btn-color: #596D48;
+    --border-color: #E5E7EB;
+}
+
+body {
+    font-family: Norse, sans-serif;
+}
