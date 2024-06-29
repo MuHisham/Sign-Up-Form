@@ -7,6 +7,69 @@
     <title>Sign-Up Form</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="image-sidebar">
+            <div class="overlay">
+                <img src="images/odin-lined.png" alt="Odin-logo">
+                <p>ODIN</p>
+            </div>
+            <p>Photo by <span class="credits">Halie West</span> on <span class="credits">Unsplash</span></p>
+        </div>
+        <div class="main">
+            <section class="intro">
+                <div class="space"></div>
+                <div class="text">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                    <p>Sign up <em>now</em> to get started.</p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+            </section>
+            <form>
+                <section class="form-s-1">
+                    <h2>Let's do this!</h2>
+                    <div class="name">
+                        <p>
+                            <label for="f-name">First Name</label>
+                            <input type="text" name="f-name" id="f-name" required>
+                        </p>
+                        <p>
+                            <label for="l-name">Last Name</label>
+                            <input type="text" name="l-name" id="l-name" required>
+                        </p>
+                    </div>
+                    <div class="contact-details">
+                        <p>
+                            <label for="mail">Email</label>
+                            <input type="email" name="mail" id="mail" required>
+                        </p>
+                        <p>
+                            <label for="p-number">Phone Number</label>
+                            <input type="number" name="p-number" id="p-number" required>
+                        </p>
+                    </div>
+                    <div class="password">
+                        <p>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>
+                        </p>
+                        <p>
+                            <label for="confirm-p">Confirm Password</label>
+                            <input type="password" name="confirm-p" id="confirm-p" required>
+                        </p>
+                        
+                    </div>
+                    <p class="errorMsg"></p>
+                </section>
+                <section class="form-s-2">
+                    <button type="submit">Create Account</button>
+                </section>
+            </form>
+            <section class="outro">
+                <p>Already have an account? <a href="">Log in</a></p>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
